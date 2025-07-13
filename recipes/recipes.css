@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica, arial, sans-serif;
+    background-color: #fff;
+    color: #363020;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+
+button {
+    position: fixed;
+    top: 10px;
+    right: 20px;    
+    font-size: 20px;
+    padding: 5px 5px;
+    background-color: red;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 7px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.muffin {
+    color: navy;
+}
+
+h1 {
+    text-align: center;
+}
+
+.desc {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.desc h2 {
+    width: 95%;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.desc p {
+    font-size: 0.9em;
+    width: 95%;
+    margin-bottom: -5px;
+}
+
+hr {
+    height: 6px;
+    background-color: #34343470;
+    border-radius: 20px;
+    margin-bottom: 7px;
+}
+
+.ingrdts, .steps {
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+.ingrdts h2, .steps h2 {
+    padding: 5px;
+    margin: 6px 0;
+    font-size: 1.8em;
+    display: table;
+}
+
+.ingrdts h2 {
+    background-color: salmon;
+    color: #fff;
+}
+
+.steps h2 {
+    background-color: rgb(231, 34, 34);
+    color: #fff;
+}
+
+.ingrdts ul {
+    margin: 0 40px;
+    text-indent: -5px;
+    padding: 5px;
+}
+
+.ingrdts li {
+    margin-bottom: 7px;
+    font-size: 22px;
+    color: rgb(56, 56, 56);
+}
+
+.steps ol {
+    margin: 0 40px;
+    text-indent: 5px;
+    padding: 5px;
+}
+
+.steps li {
+    margin-bottom: 7px;
+    font-size: 22px;
+    color: rgb(56, 56, 56);
+}
