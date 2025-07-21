@@ -33,6 +33,14 @@ button a {
     color: navy;
 }
 
+.grilled-cheese {
+    color: brown;
+}
+
+.hotdog {
+    color: maroon;
+}
+
 h1 {
     text-align: center;
 }
@@ -103,12 +111,16 @@ hr {
 
 .steps ol {
     margin: 0 40px;
-    text-indent: 5px;
+    text-indent: 2px;
     padding: 5px;
 }
 
 .steps li {
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     font-size: 22px;
     color: rgb(56, 56, 56);
+}
+
+.steps li::marker {
+    color: red;
 }
